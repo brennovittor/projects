@@ -1,6 +1,3 @@
-Olá, me chamo Brenno
+Olá, meu nome é Brenno.
 
-Aqui estarei deixando alguns de meus projetos feitos durante o curso de programação 
-
-
-Testando
+Aqui, você encontrará alguns dos projetos que desenvolvi durante meu curso de programação.
