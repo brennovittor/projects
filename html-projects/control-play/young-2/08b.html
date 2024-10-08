@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos the Best</title>
+    <style>
+        /* Estilo do cabeçalho */
+        .cabecalho {
+            font-size: 30px;
+            font-family: 'Cursive';
+            text-align: center;
+            color: rgb(0, 0, 0);
+            animation: TrocaCor 5s ease-in infinite;
+        }
+
+        /* Animação de troca de cor */
+        @keyframes TrocaCor {
+            from, to {
+                color: rgb(6, 6, 6);
+            }
+            20% {
+                color: rgb(245, 245, 245);
+            }
+            50% {
+                color: rgb(210, 30, 30);
+            }
+        }
+
+        /* Estilo da seção de jogos */
+        .jogos {
+            display: flex;
+            flex-direction: column; /* Muda a direção para coluna */
+            align-items: center; /* Centraliza os itens na horizontal */
+            gap: 40px; /* Espaçamento aumentado para dar espaço entre jogos */
+            padding: 50px;
+            font-size: 20px;
+            font-family: cursive;
+        }
+
+        /* Estilo das imagens dos jogos */
+        .jogos img {
+            width: 300px; /* Definindo a largura da imagem */
+            height: 300px; /* Definindo a altura da imagem */
+        }
+
+        /* Estilo dos títulos dos jogos */
+        .jogos h2 {
+            font-size: 24px; /* Tamanho da fonte para os títulos */
+            text-align: center; /* Centraliza o texto */
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">The Best Jogos</header>
+    <div class="jogos">
+        <div>
+            <h2>Valorant</h2> <!-- Título acima da imagem -->
+            <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/omen.png" alt="Valorant">
+        </div>
+        <div>
+            <h2>CS:GO</h2>
+            <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/csgo.png" alt="CS:GO"> <!-- Substitua pelo URL correto -->
+        </div>
+        <div>
+            <h2>Pacify</h2>
+            <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/pacify.png" alt="Pacify"> <!-- Substitua pelo URL correto -->
+        </div>
+        <div>
+            <h2>Devour</h2>
+            <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/devour.png" alt="Devour"> <!-- Substitua pelo URL correto -->
+        </div>
+    </div>
+</body>
+</html>
