@@ -18,3 +18,4 @@ elif idade > 20:
 elif idade == 18 or 19:
     saldo = idade - 18
     print(f'Você devia ter se alistado faz {saldo} ano')
+
